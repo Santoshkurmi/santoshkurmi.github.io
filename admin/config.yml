@@ -4,6 +4,10 @@ backend:
   name: github
   repo: santoshkurmi/santoshkurmi.github.io
   branch: main # Branch to update (optional; defaults to master)
+  site_domain: santoshkurmi.me
+  # base_url: "https://tiger"
+  # auth_endpoint: auth?provider=github&site_id=cms.netlify.com&scope=repo\???
+  # cms.netlify.com
 media_folder: "assets/images"
 collections:
   - name: "blog"
@@ -21,13 +25,13 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
-    folder: "_tabs"
+    # folder: "_tabs/"
     editor:
       preview: false
     files:
       - label: "About Page"
         name: "about"
-        file: "about.md"
+        file: "_tabs/about.md"
         fields:
           - {
               label: "Title",
@@ -42,18 +46,3 @@ collections:
               default: "about",
             }
           - { label: "Body", name: "body", widget: "markdown" }
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
