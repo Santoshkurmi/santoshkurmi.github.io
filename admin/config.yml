@@ -1,10 +1,10 @@
 # config.yml
 
 backend:
-  name: github
+  name: git-gateway
   repo: santoshkurmi/santoshkurmi.github.io
   branch: main # Branch to update (optional; defaults to master)
-  site_domain: santoshkurmi.me
+  # site_domain: santoshkurmi.me
   # base_url: "https://tiger"
   # auth_endpoint: auth?provider=github&site_id=cms.netlify.com&scope=repo\???
   # cms.netlify.com
