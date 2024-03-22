@@ -24,4 +24,5 @@ There are many system of governement but the most effective one are those that m
 |name|age|
 |---|---|
 |santosh|50|
+
 _Table of rivers in nepal_
