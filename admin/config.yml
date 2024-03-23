@@ -2,6 +2,7 @@
 
 backend:
   name: git-gateway
+  # name: github
   repo: santoshkurmi/santoshkurmi.github.io
   branch: main # Branch to update (optional; defaults to master)
   # site_domain: santoshkurmi.me
@@ -9,6 +10,7 @@ backend:
   # auth_endpoint: auth?provider=github&site_id=cms.netlify.com&scope=repo\???
   # cms.netlify.com
 media_folder: "assets/images"
+publish_mode: editorial_workflow
 collections:
   - name: "blog"
     label: "Blog"
@@ -21,7 +23,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Thumbnail", name: "image", widget: "image" }
+      - { label: "Thumbnail", name: "image", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
