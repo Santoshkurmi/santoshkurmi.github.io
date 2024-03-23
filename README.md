@@ -1,1 +1,1 @@
-Live at https://santoshkurmi.github.io
+Live at santoshkurmi.github.io
