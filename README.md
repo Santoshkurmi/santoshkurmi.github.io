@@ -1,1 +1,1 @@
-Live at [Github](http://santoshkurmi.github.io)
+Live at [santoshkurmi.github.io](http://santoshkurmi.github.io)
