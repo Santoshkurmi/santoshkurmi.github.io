@@ -1,0 +1,15 @@
+---
+layout: post
+title: Just testing the editorial things here
+categories:
+  - politics
+  - news
+tags:
+  - politics
+date: 2024-03-23T04:12:19.675Z
+image: /assets/images/cat.jpg
+---
+Hello everyone this is me here and we are awesome on our whole.
+Hey there
+I am hungry in my own way here so that we can have a cup of coffee.
+
