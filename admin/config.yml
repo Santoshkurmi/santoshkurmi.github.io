@@ -1,8 +1,8 @@
 # config.yml
 
 backend:
-  name: git-gateway
-  # name: github
+  # name: git-gateway
+  name: github
   repo: santoshkurmi/santoshkurmi.github.io
   branch: main # Branch to update (optional; defaults to master)
   # site_domain: santoshkurmi.me
@@ -11,20 +11,41 @@ backend:
   # cms.netlify.com
 media_folder: "assets/images"
 publish_mode: editorial_workflow
+display_url: https://santoshkurmi.me
+logo_url: https://c8.alamy.com/comp/2D82KG1/blogger-logo-blogger-is-a-blog-publishing-service-communication-app-icon-kharkiv-ukraine-june-2020-2D82KG1.jpg
+search: false
 collections:
   - name: "blog"
     label: "Blog"
+    delete: true
     folder: "_posts/"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
       preview: false
+    sortable_fields: ['commit_date', 'title', 'commit_author', 'language.en']
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
+
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        allow_add: true
+        default: ["No categories"]
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+        default: ["No tags"]
+        required: false
+
+
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Thumbnail", name: "image", widget: "image", required: false}
+      - { label: "Cover photo", name: "image", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "pages"
     label: "Pages"
     # folder: "_tabs/"
