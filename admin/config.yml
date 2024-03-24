@@ -12,7 +12,7 @@ backend:
 media_folder: "assets/images"
 publish_mode: editorial_workflow
 display_url: https://santoshkurmi.me
-logo_url: https://c8.alamy.com/comp/2D82KG1/blogger-logo-blogger-is-a-blog-publishing-service-communication-app-icon-kharkiv-ukraine-june-2020-2D82KG1.jpg
+logo_url: https://www.bergerpaints.com/imaginecolours/wp-content/uploads/2018/01/Flag-of-Nepal.png
 search: false
 collections:
   - name: "blog"
