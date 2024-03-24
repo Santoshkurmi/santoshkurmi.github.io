@@ -14,12 +14,12 @@ timezone: Asia/Kathmandu
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Santosh Kurmi # the main title
+title: Narendra # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: Writing is the mirror to your soul. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  My personal blog for sharing my opinions and ideas
+  - "Welcome to our creative hub where words become art. Explore insightful reflections, thought-provoking narratives, and celebrate the beauty of self-expression with us."
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,8 +34,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Santosh Kurmi
-  email: xantosh122.com # change to your email address
+  name: Narendra Chhetri
+  email: narendraChhetri.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/santosh.kurmi # change to your twitter homepage
@@ -53,7 +53,7 @@ google_analytics:
   id: # fill in your Google Analytics ID
 
 goatcounter:
-  id: santoshkurmi # fill in your Goatcounter ID
+  id:  # fill in your Goatcounter ID
 
 # Prefer color scheme setting.
 #
@@ -76,11 +76,11 @@ theme_mode:  # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./assets/images/cat.jpg
+avatar: ./assets/images/narendra_profile.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: ./assets/images/cat.jpg # string, local or CORS resources
+social_preview_image: ./assets/images/narendra_profile.jpg # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true

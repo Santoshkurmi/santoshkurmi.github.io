@@ -3,7 +3,7 @@
 backend:
   name: git-gateway
   # name: github
-  repo: santoshkurmi/santoshkurmi.github.io
+  # repo: santoshkurmi/santoshkurmi.github.io
   branch: main # Branch to update (optional; defaults to master)
   # site_domain: santoshkurmi.me
   # base_url: "https://tiger"

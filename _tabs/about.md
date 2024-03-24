@@ -2,14 +2,14 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Hey there
+title: About Me
 ---
 
-# Santosh kurmi
+## Narendra Chhetri
 
-Hello everyone, it's me a student studying bachelor in CSIT in butwal college.
+Hello everyone, it's me **Narendra Chhetri**.
 
-![My pic](../assets/images/cat.jpg)
-_Me trying to sleep_
+![My pic](../assets/images/narendra_profile.jpg){: w="300px" .shadow}
+_My Profile_
 
-I am interested in mamy things but important one is amazing.
+More details here
